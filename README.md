@@ -13,3 +13,4 @@ Subsequently,images were generated artificially from these samples, applied vari
 The TrOCRProcessor and VisionEncoderDecoderModel are loaded from the qantev/trocr-large-spanish model. The processor handles preparing the image input, and the model performs the text generation based on the image.
 The image is opened using the PIL library, converted to RGB (which is expected by the model), and passed to the processor to convert it into pixel values.
 The model generates text from the pixel values. Then, the processor decodes the generated text by skipping special tokens, producing the final OCR result in Spanish.
+Here is our kaggle notebook link-https://www.kaggle.com/code/ansh15880/large-sized-trocr-model-spanish
